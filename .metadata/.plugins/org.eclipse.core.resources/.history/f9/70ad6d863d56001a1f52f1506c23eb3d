@@ -1,0 +1,30 @@
+package javaPrograms;
+
+import java.util.Arrays;
+
+public class ReverseArrayDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		int a[]= {1,2,3,4,5,};
+		
+		
+		      System.out.println(a.toString());
+		
+		      String b=Arrays.toString(a);
+		      System.out.println(b);
+		
+		  String rev="";
+		         for(int i=b.length();i>=0;i--)
+		         {
+		        	 rev=rev+b.charAt(i);
+		         }
+		      System.out.print(rev);
+		      
+		      
+	}
+
+}
